@@ -1,10 +1,9 @@
-
-
-export default function Error() {
-
+const Error = () => {
   return (
     <div>
-        <p>Usuário não encontado!</p>
+      <p>Usuário não encontrado!</p>
     </div>
-  )
-}
+  );
+};
+
+export default Error;
